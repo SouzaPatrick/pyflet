@@ -1,0 +1,18 @@
+[project]
+name = "pyflet"
+version = "0.1.0"
+description = "Projeto seguindo a playlist Flet do Zero ao Avançado do canal pyflet"
+authors = [
+    {name = "SouzaPatrick",email = "souza.felipe.patrick@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flet (>=0.27.6,<0.28.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
